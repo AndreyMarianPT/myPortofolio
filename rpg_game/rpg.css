@@ -1,0 +1,79 @@
+body {
+  background-color: #0a0a23;
+}
+
+#text {
+  background-color: #0a0a23;
+  color: #ffffff;
+  padding: 10px;
+}
+#The-games{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  min-height:80vh;
+  width:100%;
+  min-width:110vw;
+  max-width:110vw;
+}
+#game {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  max-height: 400px;
+  background-color: #ffffff;
+  color: #ffffff;
+  margin: 30px auto 0px;
+  padding: 10px;
+  border:8px groove black;
+  margin-right: 250px;
+}
+
+#controls,
+#stats {
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #0a0a23;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px solid #0a0a23;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #c70d0d;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #0a0a23;
+  background-color: #feac32;
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border: 3px solid #feac32;
+}
+
+.Menu{
+  display:flex;
+  background-color: #FFD700;
+  margin:20px;
+  border:4px groove black;
+  width:20vw;
+  min-height:50vh;
+  margin-right: 230px;
+  flex-direction: column;
+}
+#quest-choice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Your-items{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
